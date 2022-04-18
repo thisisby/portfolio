@@ -12,7 +12,7 @@ const ProjectItem = ({ data }) => {
             href={data.link}
           >
             {data.title}
-          </a>
+          </a>{" "}
           - {data.date}
         </li>
       </ul>
