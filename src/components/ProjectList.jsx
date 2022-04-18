@@ -16,6 +16,12 @@ const frontData = [
     date: "June 29, 2021",
   },
   {
+    id: 5,
+    title: "Algorithm's visualizer",
+    link: "https://github.com/gapcloser/binary-search",
+    date: "May 23, 2021",
+  },
+  {
     id: 2,
     title: "My Portfolio web page",
     link: "https://watts-en.netlify.app/",
