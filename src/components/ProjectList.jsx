@@ -50,6 +50,15 @@ const javaData = [
   },
 ];
 
+const backData = [
+  {
+    id: 0,
+    title: "Customer Tracker",
+    link: "https://github.com/gapcloser/Customer_Tracker",
+    date: "April 18, 2022",
+  },
+];
+
 const ProjectList = () => {
   return (
     <div>
@@ -64,7 +73,9 @@ const ProjectList = () => {
       ))}
       <br />
       <Heading title="Back-end" />
-      <p>On process... (Spring Framework)</p>
+      {backData.map((data) => (
+        <ProjectItem key={data.id} data={data} />
+      ))}
     </div>
   );
 };
