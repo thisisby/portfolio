@@ -14,7 +14,6 @@ const ProjectItem = ({ data }) => {
             {data.title}
           </a>{" "}
           - {data.date}
-          {data.git && <span>[github]</span>}
         </li>
       </ul>
     </div>
