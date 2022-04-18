@@ -67,13 +67,13 @@ const ProjectList = () => {
         <ProjectItem key={data.id} data={data} />
       ))}
       <br />
-      <Heading title="Java" />
-      {javaData.map((data) => (
+      <Heading title="Back-end" />
+      {backData.map((data) => (
         <ProjectItem key={data.id} data={data} />
       ))}
       <br />
-      <Heading title="Back-end" />
-      {backData.map((data) => (
+      <Heading title="Java" />
+      {javaData.map((data) => (
         <ProjectItem key={data.id} data={data} />
       ))}
     </div>
