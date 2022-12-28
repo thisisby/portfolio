@@ -9,7 +9,7 @@ const data = [
     id: 0,
     title: "Gmail",
     text: "baistan.tashkulov@gmail.com",
-    link: "mailto: baistan.xi@gmail.com",
+    link: "mailto: baistan.tashkulov@gmail.com",
   },
   {
     id: 1,
