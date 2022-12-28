@@ -27,18 +27,6 @@ const frontData = [
     link: "https://watts-en.netlify.app/",
     date: "November 7, 2021",
   },
-  {
-    id: 3,
-    title: "Notes web application",
-    link: "https://notts.netlify.app/",
-    date: "September 10, 2021",
-  },
-  {
-    id: 4,
-    title: "Game blogging web application",
-    link: "https://monster-pay.netlify.app/",
-    date: "June 13, 2021",
-  },
 ];
 
 const javaData = [
@@ -59,22 +47,42 @@ const javaData = [
 const backData = [
   {
     id: 0,
+    title: "Save Picture",
+    link: "https://github.com/wattsen/SavePic",
+    date: "November 01, 2022",
+  },
+  {
+    id: 1,
     title: "Customer Tracker",
     link: "https://github.com/gapcloser/Customer_Tracker",
     date: "April 18, 2022",
   },
 ];
 
+const products = [
+  {
+    id: 0,
+    title: "Room Reservation System",
+    link: "https://bookaroom.app/",
+    date: "September 04, 2022",
+  },
+];
+
 const ProjectList = () => {
   return (
     <div>
-      <Heading title="Front-end" />
-      {frontData.map((data) => (
+      <Heading title="Products" />
+      {products.map((data) => (
         <ProjectItem key={data.id} data={data} />
       ))}
       <br />
       <Heading title="Back-end" />
       {backData.map((data) => (
+        <ProjectItem key={data.id} data={data} />
+      ))}
+      <br />
+      <Heading title="Front-end" />
+      {frontData.map((data) => (
         <ProjectItem key={data.id} data={data} />
       ))}
       <br />

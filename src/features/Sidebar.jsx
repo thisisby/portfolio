@@ -22,13 +22,6 @@ const Sidebar = () => {
         <NavLink
           className="font-semibold mr-3 md:mb-2"
           style={({ isActive }) => ({ color: isActive ? "#3d9de1" : "#333" })}
-          to="/blog"
-        >
-          blog
-        </NavLink>
-        <NavLink
-          className="font-semibold mr-3 md:mb-2"
-          style={({ isActive }) => ({ color: isActive ? "#3d9de1" : "#333" })}
           to="/contacts"
         >
           contacts
