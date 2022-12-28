@@ -8,7 +8,7 @@ const data = [
   {
     id: 0,
     title: "Gmail",
-    text: "baistan.xi@gmail.com",
+    text: "baistan.tashkulov@gmail.com",
     link: "mailto: baistan.xi@gmail.com",
   },
   {

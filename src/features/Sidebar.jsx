@@ -27,7 +27,7 @@ const Sidebar = () => {
           contacts
         </NavLink>
         <a
-          href="https://github.com/gapcloser"
+          href="https://github.com/wattsen"
           target="_blank"
           rel="noreferrer"
           className="font-semibold"
