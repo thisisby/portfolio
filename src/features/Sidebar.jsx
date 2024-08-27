@@ -27,7 +27,7 @@ const Sidebar = () => {
           contacts
         </NavLink>
         <a
-          href="https://github.com/wattsen"
+          href="https://github.com/thisisby"
           target="_blank"
           rel="noreferrer"
           className="font-semibold"

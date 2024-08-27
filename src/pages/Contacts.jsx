@@ -14,8 +14,8 @@ const data = [
   {
     id: 1,
     title: "Phone / WhatsApp",
-    text: "+996 (771)-390-338",
-    link: "https://wa.me/+996771390338",
+    text: "+996 (500)-427-060",
+    link: "https://wa.me/+996500427060",
   },
   {
     id: 2,

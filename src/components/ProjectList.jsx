@@ -46,6 +46,30 @@ const javaData = [
 
 const backData = [
   {
+    id: 4,
+    title: "Microservices using Go",
+    link: "https://github.com/thisisby/go-microservices-example",
+    date: "July 10, 2024",
+  },
+  {
+    id: 3,
+    title: "Avito backend test task. Token Generator",
+    link: "https://github.com/thisisby/avito-backend-assignment",
+    date: "August 01, 2024",
+  },
+  {
+    id: 6,
+    title: "Modular Architecture using Node Js",
+    link: "https://github.com/thisisby/nodejs-modular-architecture",
+    date: "November 01, 2023",
+  },
+  {
+    id: 5,
+    title: "Inventory Management",
+    link: "https://github.com/thisisby/inventory-management",
+    date: "June 15, 2024",
+  },
+  {
     id: 0,
     title: "Save Picture",
     link: "https://github.com/wattsen/SavePic",
